@@ -659,10 +659,12 @@ overflow: hidden;
     align-items: center;
     justify-content: center;
 }
-.modal-close:hover .modal-icon,
- .modal-close:focus .modal-icon {
+.modal-close:hover, .modal-close:focus {
     background-color: #404bbf;
     border: none;
+}
+.modal-close:hover .modal-icon,
+ .modal-close:focus .modal-icon {
     fill: #ffffff;
 }
 .modal-icon {
